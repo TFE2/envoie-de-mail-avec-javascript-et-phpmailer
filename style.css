@@ -1,0 +1,57 @@
+.contact_form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.your_name, .your_mail {
+	height: 40px;
+	width: 410px;
+	color: #333333;
+	background-color: #e3e4e6;
+	border-radius: 40px;
+	border: none;
+	position: relative;
+	margin: 20px 55px;
+	font-size: 14px;
+	padding: 5px 5px;
+}
+
+.your_message {
+	width: 410px;
+	color: #333333;
+	background-color: #e3e4e6;
+	border-radius: 40px;
+	border: none;
+	position: relative;
+	margin: 20px 55px;
+	font-size: 14px;
+	padding: 13px 13px;
+	overflow-y: hidden;
+}
+
+.form_submit{
+	margin-top: 25px;
+	margin: 20px 55px;
+	padding: 10px 23px;
+	border: 2px solid black;
+	color: black;
+	cursor: pointer;
+	border-radius: 40px;
+	transition: all 220ms ease-out 0s;
+}
+
+.form_submit:hover{
+	color: white;
+	background-color: black;
+}
+
+h6{
+	display: none;
+	color: white;
+	margin-top: 25px;
+	font-size: 18px;
+	padding: 10px 23px;
+	border-radius: 40px;
+	background: red;
+}
